@@ -2,7 +2,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Toko Parfum Elegan",
+  title: "Toko Galaxy Parfume",
   description: "Temukan koleksi parfum eksklusif untuk setiap momen spesial.",
 };
 
@@ -12,7 +12,7 @@ export default function RootLayout(props) {
       <body className="antialiased bg-white text-gray-800 font-sans">
         <header className="py-6 shadow-sm sticky top-0 z-50 bg-white">
           <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
-            <h1 className="text-xl font-bold">ParfumElegan</h1>
+            <h1 className="text-xl font-bold">Galaxy Parfume</h1>
             <nav className="space-x-6">
               <a href="#about" className="hover:underline">Tentang</a>
               <a href="#products" className="hover:underline">Produk</a>
@@ -24,7 +24,7 @@ export default function RootLayout(props) {
         <main>{props.children}</main>
 
         <footer className="bg-gray-100 mt-16 py-6 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} ParfumElegan. All rights reserved.
+          &copy; {new Date().getFullYear()} Galaxy Parfume. All rights reserved.
         </footer>
       </body>
     </html>
